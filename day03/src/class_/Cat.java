@@ -1,0 +1,20 @@
+package class_;
+
+public class Cat {
+
+	//이름, 나이, 품종, 털 색깔
+	public String name;
+	public int age;
+	public String kind;
+	public String color;
+	
+	//클래스 정의용 클랲스파일 내부 메서드는 static을 붙이지 않는다.
+	//이제 변수와 메서드가 같은 소속이므로, 레퍼런스 주소를 붙이지 않아도 됩니다.
+	public void showCatInfo() {
+		System.out.println("고양이의 이름 : "+name);
+		System.out.println("고양이의 나 : "+age);
+		System.out.println("고양이의 품종 : "+kind);
+		System.out.println("고양이의 생상 : "+color);
+		
+	}
+}
