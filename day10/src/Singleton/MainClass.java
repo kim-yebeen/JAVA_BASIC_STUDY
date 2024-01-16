@@ -3,7 +3,7 @@ package Singleton;
 public class MainClass {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		//Singleton 객체는 생성자가 private이므로 인스턴스 생성 불가
 		//singleton s1 = new singleton();
 	

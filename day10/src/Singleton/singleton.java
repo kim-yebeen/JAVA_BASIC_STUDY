@@ -7,24 +7,24 @@ public class singleton {
 	 * 1. 외부에서 생성자를 사용할 수 없도록 생성자에 private 붙임 
 	 */
 	private singleton() {}
-		/*
-		 * 2. 자신의 클래스 내부에서 스스로의 객체 1개를 생성합니다.
-		 * 이 때, 멤버변수는 힙에 할당된 객체 없이 쓸 수 있도록 static 입니다.
-		 */
-		private static singleton instance;
+	/*
+	 * 2. 자신의 클래스 내부에서 스스로의 객체 1개를 생성합니다.
+	 * 이 때, 멤버변수는 힙에 할당된 객체 없이 쓸 수 있도록 static 입니다.
+	 */
+	private static singleton instance;
 		
-		static {
+	static {
 			instance=new singleton();
 		}
 	
-		/*
-		 * 3.외부에서 이 클래스의 객체를 필요로 하는 경우
-		 * 2번에서 static으로 생성된 객체의 주소를 return 합니다.
-		 */
-		public static singleton getInstance() {
-			if(instance==null) {
-				instance = new singleton();
-			}
-			return instance;
+	/*
+	 * 3.외부에서 이 클래스의 객체를 필요로 하는 경우
+	 * 2번에서 static으로 생성된 객체의 주소를 return 합니다.
+	 */
+	public static singleton getInstance() {
+		if(instance==null) {
+			instance = new singleton();
+		}
+		return instance;
 		}
 }
