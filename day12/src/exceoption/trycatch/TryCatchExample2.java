@@ -16,7 +16,7 @@ public class TryCatchExample2 {
 				System.out.println("배열의 참조범위를 벗어남.\n");
 			}
 			finally {
-				System.out.println("다음부턴 주의해주세요\n");
+				System.out.println("\n");
 			}
 			i++;
 		}
