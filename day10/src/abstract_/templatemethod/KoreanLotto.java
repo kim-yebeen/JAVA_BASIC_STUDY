@@ -9,7 +9,7 @@ public class KoreanLotto extends Lottery{
 	
 	@Override
 	public void checkWinLottery() {
-		System.out.println("4056의 확률을 뚫고 1등에 당첨되었습니다.");
+		System.out.println("405c6의 확률을 뚫고 1등에 당첨되었습니다.");
 		
 	}
 	

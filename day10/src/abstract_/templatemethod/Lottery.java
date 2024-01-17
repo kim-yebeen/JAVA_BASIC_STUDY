@@ -23,6 +23,4 @@ public abstract class Lottery {
 	public abstract void buyLottery();
 	public abstract void checkWinLottery();
 	public abstract void getLotteryMoney();
-	
-
 }
