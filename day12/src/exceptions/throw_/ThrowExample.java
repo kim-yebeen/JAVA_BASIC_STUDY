@@ -24,8 +24,8 @@ public class ThrowExample {
 			int result2 = calcSum(-100);
 			System.out.println("1~100까지의 누적합 : "+result2);
 		} catch(Exception e) {
-			
+			e.printStackTrace();
+			System.err.println("매개값을 양수로 전달해주세요");	
 		}
-	
 	}
 }
